@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
+    <script src="./main.js"></script>
 </head>
 
 <body>
@@ -52,11 +53,11 @@
                 <h3>Our Machinery</h3>
                 <div class="line"></div>
                 <div class="images">
-                    <div class="image">
-                        <div class="content_image">
-                            <button><img src="../images/shapeleft.png" alt=""></button>
+                    <div id="image">
+                        <div id="content_image">
+                            <button onclick="handleClickLeft()"><img src="../images/shapeleft.png" alt=""></button>
                             <span>Our personal Menzi Muck</span>
-                            <button><img src="../images/shaperight.png" alt=""></button>
+                            <button class="myButton" onclick="handleClickRight()"><img src="../images/shaperight.png" alt=""></button>
                         </div>
                     </div>
                 </div>

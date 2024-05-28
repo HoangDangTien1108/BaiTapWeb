@@ -139,8 +139,8 @@ body {
   left: 30px;
 }
 
-.content1 .image {
-  background-image: url("../images/Rectangle 17.png");
+.content1 #image {
+  background-image: url("../images/Rectangle17.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 374px;
@@ -155,7 +155,7 @@ body {
   width: 100%;
 }
 
-.content_image {
+#content_image {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -169,7 +169,7 @@ body {
   padding-top: 70px;
 }
 
-.content_image button {
+#content_image button {
   background-color: transparent;
   border: 1.5px solid white;
   border-radius: 50%;
@@ -181,7 +181,7 @@ body {
   color: white;
 }
 
-.content_image span {
+#content_image span {
   font-size: 20px;
   font-weight: 400;
   color: white;
